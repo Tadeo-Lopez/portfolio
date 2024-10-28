@@ -340,7 +340,7 @@ section {
 #education-container {
   border: none;
   border-bottom: var(--color-2) 0.1rem solid;
-  border-radius: 0.5rem;
+  border-radius: 0;
   background: none;
 }
 
