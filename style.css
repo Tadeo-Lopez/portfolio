@@ -44,6 +44,10 @@
   padding: 0;
 }
 
+body,html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--default-font);
 }
@@ -504,7 +508,7 @@ footer p {
 #scroll-to-top {
   display: none;
   position: fixed;
-  bottom: 20px;
+  bottom: 10px;
   right: 10px;
   z-index: 999;
   font-size: 18px;

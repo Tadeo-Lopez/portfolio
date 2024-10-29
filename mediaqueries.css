@@ -48,10 +48,13 @@
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
-  footer {
+  #contact {
     height: 40vh;
   }
+  footer {
+    padding-bottom: 8%;
+  }
+
   #profile {
     height: 33vh;
     margin-bottom: 0;
