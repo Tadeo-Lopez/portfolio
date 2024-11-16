@@ -287,6 +287,10 @@ section {
 
 /* BUTTONS */
 
+.project-btn {
+  margin-top: 1rem;
+}
+
 .btn-container {
   display: flex;
   justify-content: center;
@@ -304,24 +308,20 @@ section {
   width: 8rem;
   border-radius: 2rem;
   font-family: Rubik;
-}
-
-.btn-color-1, .details-container, .color-container,.contact-info-upper-container {
-  border: var(--color-2) 0.1rem solid;
-
-}
-
-.btn-color-1:hover {
   cursor: pointer;
 }
 
-.btn-color-1:hover{
+.btn-color-1, .project-btn, .details-container, .color-container,.contact-info-upper-container {
+  border: var(--color-2) 0.1rem solid;
+}
+
+.btn-color-1:hover, .project-btn:hover{
   background: var(--color-1);
   color: white;
   border: rgb(255, 255, 255) 0.1rem solid;
 }
 
-.btn-color-1 {
+.btn-color-1, .project-btn {
   background: none;
 }
 
@@ -447,11 +447,6 @@ article .icon {
 .project-title {
   margin: 1rem;
   color: black;
-}
-
-.project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
 }
 
 #project-1 {
